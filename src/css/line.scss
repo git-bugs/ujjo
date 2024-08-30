@@ -1,0 +1,30 @@
+.line {
+}
+.line-wrapper {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  line-height: 26px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.line-content {
+  display: flex;
+  align-items: center;
+  gap: 0 28px;
+  animation: line 3s linear infinite;
+}
+
+.line-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  img {
+    margin-right: 29px;
+  }
+}

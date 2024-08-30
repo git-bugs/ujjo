@@ -1,0 +1,22 @@
+.header {
+}
+.nav {
+  border: 1px solid #000;
+}
+.header-list {
+  padding: 0 27px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 21.6px;
+  color: #222;
+}
+.header-item:first-child,.header-item:last-child {
+  color: #fff;
+  background: var(--tomato);
+}
+.header-link {
+  padding: 15px 50px;
+}
