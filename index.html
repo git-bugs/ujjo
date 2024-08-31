@@ -13,6 +13,14 @@
   <header class="header">
     <div class="container">
       <nav class="nav">
+        <a href="#" class="header-logo">
+          <img src="src/images/logo.svg" alt="">
+        </a>
+        <div class="header-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <ul class="header-list">
           <li class="header-item">
             <a href="#" class="header-link">Go back</a>
@@ -23,7 +31,7 @@
           <li class="header-item">
             <a href="#" class="header-link">shop</a>
           </li>
-          <li class="header-item">
+          <li class="header-item header-item-logo">
             <a href="#" class="header-link">
               <img src="src/images/logo.svg" alt="">
             </a>
@@ -63,19 +71,19 @@
                 <img src="src/images/IMAGE.svg" alt="">
                 <p>put some fire in your belly</p>
               </div>
+              <div class="main-marquee-item">
+                <img src="src/images/IMAGE.svg" alt="">
+                <p>put some fire in your belly</p>
+              </div>
             </div>
           </div>
-          <div class="main-box">
-            <img src="src/images/IMAGE.jpg" alt="">
-          </div>
+          <img class="main-box main-bot-image" src="src/images/IMAGE.jpg" alt="">
         </div>
         <div class="main-right">
           <div class="main-title-box">
             <h1 class="main-title">THE FIRST HOT SAUCE MADE FOR COFFEE</h1>
           </div>
-          <div class="main-box">
-            <img src="src/images/IMAGE-1.jpg" alt="">
-          </div>
+          <img class="main-box main-right-image" src="src/images/IMAGE-1.jpg" alt="">
         </div>
       </div>
     </div>
@@ -93,19 +101,22 @@
 
   <section class="sauces">
     <div class="container">
-      <div class="sauces-wrapper sauces-swiper">
-        <div class="sauces-items swiper-wrapper">
-          <div class="sauces-item swiper-slide" style="background-image: url(src/images/IMAGE-3.svg);">
+      <div class="sauces-wrapper">
+        <div class="sauces-items">
+          <div class="sauces-item">
+            <img class="sauces-item-bg" src="src/images/IMAGE-3.svg" alt="">
             <div class="sauces-item-descr">tangy and tingly</div>
             <div class="sauces-item-name">LIGHT ROAST BLEND</div>
             <img src="src/images/IMAGE.png" alt="bottle" class="sauces-item-img">
           </div>
-          <div class="sauces-item swiper-slide" style="background-image: url(src/images/IMAGE-3.svg);">
+          <div class="sauces-item">
+            <img class="sauces-item-bg" src="src/images/IMAGE-3.svg" alt="">
             <div class="sauces-item-descr">light & dark roast</div>
             <div class="sauces-item-name">UJJO SAMPLER PACK</div>
             <img src="src/images/IMAGE-1.png" alt="bottle" class="sauces-item-img">
           </div>
-          <div class="sauces-item swiper-slide" style="background-image: url(src/images/IMAGE-3.svg);">
+          <div class="sauces-item">
+            <img class="sauces-item-bg" src="src/images/IMAGE-3.svg" alt="">
             <div class="sauces-item-descr">tangy and tingly</div>
             <div class="sauces-item-name">DARK ROAST BLEND</div>
             <img src="src/images/IMAGE-2.png" alt="bottle" class="sauces-item-img">
@@ -146,9 +157,7 @@
 
   <section class="image-block">
     <div class="container">
-      <div class="image-block-wrapper">
         <img src="src/images/IMg-section.jpg" alt="sauce" class="image-block-image">
-      </div>
     </div>
   </section>
 
@@ -156,7 +165,9 @@
     <div class="container">
       <div class="story-wrapper">
         <div class="story-left">
-          <h2 class="story-title">the story behind the souce</h2>
+          <div class="story-title">
+            <h2>the story behind the souce</h2>
+          </div>
           <img src="src/images/image_1.jpg" alt="story" class="story-image">
         </div>
         <div class="story-right">
